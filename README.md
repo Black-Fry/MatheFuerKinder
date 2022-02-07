@@ -9,3 +9,14 @@ Seite neu laden generiert automatisch 15 neue Aufgaben
 Probiert es aus unter: http://mathe.ossoelmi.berlin
 
 Viel Spaß im HomeOffice :-)
+
+# Danke an
+
+https://www.w3docs.com/snippets/css/how-to-create-a-glowing-border-around-an-input-field.html
+
+für die hübschen grünen Ränder beim Eingeben des Ergebnisses
+
+
+https://www.w3schools.com/howto/howto_js_snackbar.asp
+
+für die aufblendende Nachricht nach Eingabe des Ergebnisses
