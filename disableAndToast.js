@@ -11,7 +11,10 @@ function disableInput (id, laufVariable, result)
     if ( (errechneterWert === parseInt(result)) )
     {   document.getElementById("corr_" + laufVariable).style.visibility = 'visible';    }
     else
-    {   document.getElementById("false_" + laufVariable).style.visibility = 'visible';    }
+    {   
+        document.getElementById("false_" + laufVariable).style.visibility = 'visible';    
+        document.getElementById("false_" + laufVariable).value = result;
+    }
 }
 
 function disableAndShowToast (id, laufVariable, result)
