@@ -68,14 +68,14 @@ for ($i=0;$i<15;$i++)
     $result = result($zahl1, $zahl2, $operator);
     
     echo ('<div>'
-        . '<input type="text" id="a" name="a" size="10" value="' . $zahl1 .'" style="font-size: 20px" disabled>'
-        . '<input type="text" id="a" name="a" size="5" value="' . $operator . '" style="font-size: 20px" disabled>'
-        . '<input type="text" id="a" name="a" size="10" value="'. $zahl2 .'" style="font-size: 20px" disabled>'
-        . '<input type="text" id="a" name="a" size="5" value="=" style="font-size: 20px" disabled>'
-        . '<input type="number" id="res_' . $i . '" name="res_' . $i . '" size="10" style="font-size: 20px" onchange="disableAndShowToast (this.id, ' . $i . ', ' . $result . ')">'
+        . '<input type="text" id="a" name="a" size="5" value="' . $zahl1 .'" style="font-size: 20px; text-align: right" disabled>'
+        . '<input type="text" id="a" name="a" size="1" value="' . $operator . '" style="font-size: 20px; text-align: center" disabled>'
+        . '<input type="text" id="a" name="a" size="5" value="'. $zahl2 .'" style="font-size: 20px; text-align: right" disabled>'
+        . '<input type="text" id="a" name="a" size="1" value="=" style="font-size: 20px; text-align: center" disabled>'
+        . '<input type="number" id="res_' . $i . '" name="res_' . $i . '" size="5" style="font-size: 20px" onchange="disableAndShowToast (this.id, ' . $i . ', ' . $result . ')">'
         . '<input type="text" id="corr_' . $i . '" name="corr_' . $i . '" size="2" value="" style="visibility: hidden; background-color: green; font-size: 20px" disabled>'
         . '<input type="text" id="false_' . $i . '" name="false_' . $i . '" size="2" style="visibility:hidden; background-color: coral font-size: 20px;" disabled>'
-        . '</div>');
+        . '<br><br></div>');
 }
 
 
