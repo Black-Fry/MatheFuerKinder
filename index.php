@@ -74,7 +74,7 @@ for ($i=0;$i<15;$i++)
         . '<input type="text" id="a" name="a" size="1" value="=" style="font-size: 20px; text-align: center" disabled>'
         . '<input type="number" id="res_' . $i . '" name="res_' . $i . '" size="5" style="font-size: 20px" onchange="disableAndShowToast (this.id, ' . $i . ', ' . $result . ')">'
         . '<input type="text" id="corr_' . $i . '" name="corr_' . $i . '" size="2" value="" style="visibility: hidden; background-color: green; font-size: 20px" disabled>'
-        . '<input type="text" id="false_' . $i . '" name="false_' . $i . '" size="2" style="visibility:hidden; background-color: coral font-size: 20px;" disabled>'
+        . '<input type="text" id="false_' . $i . '" name="false_' . $i . '" size="2" style="visibility:hidden; background-color: coral; font-size: 20px;" disabled>'
         . '<br><br></div>');
 }
 
